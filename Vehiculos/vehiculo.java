@@ -30,14 +30,14 @@ public class vehiculo {
         return añoFabricacion;
     }
 
-    public Vehiculo(String matricula, String modelo, String marca, int añoFabricacion) {
+    public vehiculo(String matricula, String modelo, String marca, int añoFabricacion) {
         this.matricula = matricula;
         this.modelo = modelo;
         this.marca = marca;
         this.añoFabricacion = añoFabricacion;
     }
 
-    public Vehiculo() {
+    public vehiculo() {
         this("", "", "", 0);
     }
 
