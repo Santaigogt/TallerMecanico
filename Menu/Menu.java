@@ -4,6 +4,8 @@
  */
 package Menu;
 
+import Mecanicos.FrmMecanicos;
+
 
 /**
  *
@@ -117,7 +119,7 @@ public class Menu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
-       FrmComment frm = new FrmComment();
+       Frm_NOMBREINTERFAZE frm = new Frm_NOMBREINTERFAZE();
        jDesktopPane1.add(frm);
        frm.setVisible(true);
        
@@ -125,20 +127,20 @@ public class Menu extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
-        FrmTasks frm = new FrmTasks();
+        Frm_NOMBREINTERFAZE frm = new Frm_NOMBREINTERFAZE();
         jDesktopPane1.add(frm);
         frm.setVisible(true);
         
     }//GEN-LAST:event_jMenuItem3ActionPerformed
 
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
-       FrmProyects frm = new FrmProyects();
+       FrmMecanicos frm = new FrmMecanicos();
        jDesktopPane1.add(frm);
        frm.setVisible(true);
     }//GEN-LAST:event_jMenuItem2ActionPerformed
 
     private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
-        FrmUsers frm = new FrmUsers();
+        Frm_NOMBREINTERFAZE frm = new Frm_NOMBREINTERFAZE();
         jDesktopPane1.add(frm);
         frm.setVisible(true);
     }//GEN-LAST:event_jMenuItem4ActionPerformed
