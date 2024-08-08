@@ -8,7 +8,9 @@ package Vehiculos;
  *
  * @author jcone
  */
-public class vehiculo {
+
+public class Vehiculo {
+
     private String matricula;
     private String modelo;
     private String marca;
@@ -30,14 +32,16 @@ public class vehiculo {
         return añoFabricacion;
     }
 
-    public vehiculo(String matricula, String modelo, String marca, int añoFabricacion) {
+    public Vehiculo(String matricula, String modelo, String marca, int añoFabricacion) {
+
         this.matricula = matricula;
         this.modelo = modelo;
         this.marca = marca;
         this.añoFabricacion = añoFabricacion;
     }
 
-    public vehiculo() {
+
+    public Vehiculo() {
         this("", "", "", 0);
     }
 
