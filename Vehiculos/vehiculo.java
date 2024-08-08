@@ -40,6 +40,7 @@ public class Vehiculo {
 
 
     public Vehiculo() {
+
         this("", "", "", 0);
     }
 
