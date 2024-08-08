@@ -9,7 +9,7 @@ package Vehiculos;
  * @author jcone
  */
 
-public class Vehiculo {
+   public class Vehiculo {
     private String matricula;
     private String modelo;
     private String marca;
