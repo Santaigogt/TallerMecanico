@@ -10,7 +10,6 @@ package Vehiculos;
  */
 
 public class Vehiculo {
-
     private String matricula;
     private String modelo;
     private String marca;
@@ -33,7 +32,6 @@ public class Vehiculo {
     }
 
     public Vehiculo(String matricula, String modelo, String marca, int añoFabricacion) {
-
         this.matricula = matricula;
         this.modelo = modelo;
         this.marca = marca;
