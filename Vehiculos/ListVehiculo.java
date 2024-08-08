@@ -13,13 +13,13 @@ import java.util.Iterator;
  */
 public class ListVehiculo {
 
-    ArrayList<vehiculo> vehiculos;
+    ArrayList<Vehiculo> vehiculos;
 
-    public ArrayList<vehiculo> getVehiculos() {
+    public ArrayList<Vehiculo> getVehiculos() {
         return vehiculos;
     }
 
-    public ListVehiculo(ArrayList<vehiculo> vehiculos) {
+    public ListVehiculo(ArrayList<Vehiculo> vehiculos) {
         this.vehiculos = vehiculos = new ArrayList();
     }
 
@@ -27,12 +27,12 @@ public class ListVehiculo {
         this(new ArrayList());
     }
 
-    public void agregar(vehiculo vehi) {
+    public void agregar(Vehiculo vehi) {
         vehiculos.add(vehi);
     }
 
     public boolean eliminar(String matricula) {
-        for (Iterator<vehiculo> it = this.vehiculos.iterator(); it.hasNext();) {
+        for (Iterator<Vehiculo> it = this.vehiculos.iterator(); it.hasNext();) {
             if (matricula.equals(it.next().getMatricula())) {
                 it.remove();
                 return true;
@@ -41,8 +41,8 @@ public class ListVehiculo {
         return false;
     }
 
-    public vehiculo buscar(String matricula) {
-        for(vehiculo vehi : vehiculos){
+    public Vehiculo buscar(String matricula) {
+        for(Vehiculo vehi : vehiculos){
             if(matricula.equals(vehi.getMatricula())){
                 return vehi;
             }

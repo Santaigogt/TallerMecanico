@@ -13,7 +13,7 @@ import javax.swing.table.DefaultTableModel;
  */
 public class FrmVehiculo extends javax.swing.JInternalFrame {
 
-    vehiculo vehi;
+    Vehiculo vehi;
     ListVehiculo vehiculos;
 
     /**
@@ -224,7 +224,7 @@ public class FrmVehiculo extends javax.swing.JInternalFrame {
         String marca = txtMarca.getText();
         int año = Integer.parseInt(txtAño.getText());
 
-        vehi = new vehiculo(matricula, modelo, marca, año);
+        vehi = new Vehiculo(matricula, modelo, marca, año);
         vehiculos.agregar(vehi);
 
         txtMatricula.setText("");
