@@ -1,6 +1,6 @@
 
 
-package TallerMecanico.Mecanicos;
+package Mecanicos;
 
 /**
  * ID, nombre, especialidad

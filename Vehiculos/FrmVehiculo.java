@@ -2,10 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JInternalFrame.java to edit this template
  */
-package TallerMecanico.Vehiculos;
+package Vehiculos;
 
-import TallerMecanico.Vehiculos.ListVehiculo;
-import TallerMecanico.Vehiculos.Vehiculo;
+import Vehiculos.ListVehiculo;
+import Vehiculos.Vehiculo;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 

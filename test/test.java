@@ -2,14 +2,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package TallerMecanico.test;
+package test;
 
 /**
  *
  * @author bizco
  */
-import TallerMecanico.Mecanicos.listaMecanicos;
-import TallerMecanico.Mecanicos.mecanico;
+import Mecanicos.listaMecanicos;
+import Mecanicos.mecanico;
 public class test {
   
    

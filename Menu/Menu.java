@@ -2,12 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package TallerMecanico.Menu;
+package Menu;
 
-import TallerMecanico.Clientes.FrmCliente;
-import TallerMecanico.Mecanicos.FrmMecanicos;
-import TallerMecanico.Reparaciones.FrmReparacion;
-import TallerMecanico.Vehiculos.FrmVehiculo;
+import Clientes.FrmCliente;
+import Mecanicos.FrmMecanicos;
+import Reparaciones.FrmReparacion;
+import Vehiculos.FrmVehiculo;
 
 
 /**
