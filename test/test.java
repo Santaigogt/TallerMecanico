@@ -10,21 +10,38 @@ package test;
  */
 import Mecanicos.listaMecanicos;
 import Mecanicos.mecanico;
+import Reparaciones.listaReparaciones;
 public class test {
   
    
     public static void main(String[] args) {
-         mecanico mecanic = new mecanico("1","Samuel", "buses");
+    listaReparaciones lista = new listaReparaciones();
+/*
+             mecanico mecanic = new mecanico("1","Samuel", "buses");
      listaMecanicos list = new listaMecanicos();
         System.out.println("nuevo ");
         System.out.println(list);
-        list.agregarMecanico(mecanic);
-        System.out.println(list);
-        list.buscarMecanico("1");
-        System.out.println("Eliminar");
-        list.eliminarMecanico("1");
-        System.out.println(list);
-        System.out.println("buscar");
-        list.buscarMecanico("1");
+    
+    */
+  
+        mecanico mecanico1 = new mecanico("1","Samuel", "buses");
+        mecanico mecanico2 = new mecanico("2","dylan", "motos");
+
+
+        lista.agregarReparacion("REPO01", mecanico1, "Cambio de aceite");
+        lista.agregarReparacion("REPO02", mecanico2, "Reparación de frenos");
+        lista.agregarReparacion("REPO03", mecanico1, "Ajuste de motor");
+
+        System.out.println("\nReparaciones pendientes:");
+        lista.mostrarReparacionesPendientes();
+
+        System.out.println("\nRealizando una reparacion...");
+        lista.realizarReparacion();
+
+        System.out.println("\nReparaciones pendientes después de realizar una:");
+        lista.mostrarReparacionesPendientes();
+
+        System.out.println("\nHistorial de reparaciones realizadas:");
+        lista.mostrarHistorial();
     }
 }

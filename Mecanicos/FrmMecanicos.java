@@ -222,20 +222,15 @@ public class FrmMecanicos extends javax.swing.JInternalFrame {
                     model.removeRow(i);
                     JOptionPane.showMessageDialog(null, "Se elimino el Mecanico");
                     txtId.setText("");
-                    break;
-                }else{
-                    JOptionPane.showMessageDialog(null, "No se encontro un Mecanico");
-                }
-
-            }
+                    break;  
         } else {
             JOptionPane.showMessageDialog(null, "Ingrese un id para eliminar");
            
         }
          txtId.setText("");
     }//GEN-LAST:event_jButton3ActionPerformed
-
-
+        }
+    }
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton3;
